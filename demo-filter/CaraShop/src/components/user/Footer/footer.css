@@ -1,0 +1,26 @@
+/* Footer */
+.footer {
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #222;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.follow i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.follow i:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}

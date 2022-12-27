@@ -1,0 +1,70 @@
+.adminInfoGroup {
+  position: relative;
+}
+
+.adminInfoGroup:hover,
+.adminNoteGroup:hover {
+  cursor: pointer;
+}
+
+.adminInfoGroup:hover .adminInfo-dropdown {
+  display: block;
+  margin-right: 15rem;
+}
+
+.adminInfo-dropdown {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 10rem;
+  display: none;
+  z-index: 999;
+}
+
+.adminInfo-dropdown li {
+  list-style-type: none;
+  margin-top: 1.5rem;
+}
+
+.adminInfo-dropdown li a {
+  color: black;
+  text-decoration: none;
+}
+
+.adminInfo-dropdown li:hover a {
+  color: var(--icon-collor--);
+}
+
+.adminInfo-dropdown button {
+  border: none;
+  background-color: transparent;
+}
+
+.adminAvatar {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.adminNoteGroup {
+  position: relative;
+}
+
+.adminNoteGroup:hover .noteGroup {
+  display: block;
+}
+
+.noteGroup {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: none;
+  width: 20rem;
+  margin-left: -20rem;
+  background-color: #fff;
+  z-index: 999;
+}
+.noteGroup li {
+  list-style: number;
+  margin-top: 1rem;
+}

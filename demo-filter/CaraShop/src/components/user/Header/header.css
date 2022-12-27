@@ -1,0 +1,38 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.navLinkGroup {
+  display: flex;
+}
+
+.navInfo {
+  display: flex;
+  align-items:flex-end;
+  /* margin-left: 25%; */
+
+}
+
+.navInfo .title{
+  margin-left: 0.4rem;
+}
+
+.navInfo i {
+  font-size: 1.2rem;
+}
+
+
+
+#closeNavBtn,
+#toggleBtn {
+  display: none;
+}

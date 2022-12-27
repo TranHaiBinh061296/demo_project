@@ -1,0 +1,81 @@
+#loginWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#loginForm {
+  background-color: #c4cdf5;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  text-align: center;
+}
+
+.loginNav {
+  display: flex;
+  justify-content: center;
+}
+
+#loginForm a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+#loginForm input, 
+#loginForm textarea{
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.inputGroup {
+  margin-top: 1rem;
+}
+
+.inputGroup label {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.inputGroup h6 {
+  margin-left: 0.5rem;
+  color: red;
+}
+
+#loginForm .loginBtn,
+.signinBtn {
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #768ef7;
+}
+
+.forgetPass {
+  background-color: #c4cdf5;
+  border: none;
+}
+
+.loginNav a.active {
+  color: #1d2751;
+}
+
+.loginFooter {
+  margin-top: 2rem;
+  border-top: 1px solid black;
+  padding-top: 1rem;
+}
+
+/* mobile */
+@media (max-width: 799px) {
+  #loginForm {
+    width: 90%;
+  }
+}

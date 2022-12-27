@@ -1,0 +1,22 @@
+:root {
+  --icon-collor--: rgb(95, 0, 190);
+  --title-collor--: #000000;
+}
+
+.adminForm {
+  display: flex;
+}
+
+.adminContainer {
+  flex: 5;
+}
+
+.adminContent {
+  padding: 1rem;
+}
+
+/* html,
+* {
+  background-color: #000;
+  color: white;
+} */

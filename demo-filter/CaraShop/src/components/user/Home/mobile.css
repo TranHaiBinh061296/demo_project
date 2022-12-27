@@ -1,0 +1,15 @@
+@media (max-width: 799px) {
+  .ads1,
+  .ads2,
+  .ads3,
+  .ads4,
+  .ads5 {
+    min-width: 100%;
+    height: 40vh;
+  }
+  .ads3,
+  .ads4,
+  .ads5 {
+    display: none;
+  }
+}

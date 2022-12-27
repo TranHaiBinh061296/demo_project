@@ -1,0 +1,28 @@
+.avt {
+  width: 6rem;
+  height: 6rem;
+}
+.avt img {
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+  box-sizing: border-box;
+  border: 4px solid rgb(7, 245, 249);
+  /* padding-top: 33px; */
+  border-radius: 50%;
+}
+
+@media (max-width: 740px){
+
+  .avt-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .userInfo .right-col{
+    margin-top: 2rem;
+  }
+    
+}

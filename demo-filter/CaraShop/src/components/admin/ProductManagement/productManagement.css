@@ -1,0 +1,78 @@
+.searchGroup {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.searchGroup input {
+  border: none;
+}
+
+.searchGroup input:focus {
+  outline: none;
+}
+
+.searchGroup i,
+table i,
+nav i {
+  color: var(--icon-collor--);
+}
+
+.icon-color {
+  color: var(--icon-collor--);
+}
+
+.addNewProductBtn {
+  background-color: rgb(102, 199, 95);
+  padding: 0rem 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.addNewProductBtn:hover {
+  background-color: rgb(85, 179, 79);
+}
+
+.tableProduct .productImg {
+  width: 4rem;
+  border-radius: 50px;
+}
+
+.tableProduct i {
+  margin-left: 0.5rem;
+}
+
+.tableProduct button {
+  background-color: transparent;
+}
+
+input[type='file'] {
+
+}
+.imgUploadGroup {
+
+}
+
+
+.imgUpload {
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.modal-content {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.option-btn {
+  border: none;
+  background-color: #ffffff;
+}

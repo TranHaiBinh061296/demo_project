@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,300;0,500;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Spartan:wght@100;200;300;400;500;600;700;800&display=swap');
+:root {
+  --colo-text-h--: #222;
+  --color-text--: #088187;
+  --color-text-p--: #465b52;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--colo-text-h--);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--colo-text-h--);
+}
+
+h4 {
+  font-size: 20px;
+  color: var(--colo-text-h--);
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: var(--color-text-p--);
+  margin: 15px 0 25px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+
+.banner {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table tr:hover {
+  background-color: rgb(240, 226, 250);
+}
+
+
+#searchGroup {
+  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 5px;
+  width: 25%;
+
+}
+
+#searchGroup input {
+  border: none;
+  width: 90%;
+
+
+}
+
+#searchGroup input:focus {
+  outline: none;
+}

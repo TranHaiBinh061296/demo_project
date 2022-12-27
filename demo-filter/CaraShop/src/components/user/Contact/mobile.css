@@ -1,0 +1,14 @@
+@media (max-width: 799px) {
+  #contact-detail {
+    margin: 4rem 0;
+  }
+
+  #form-details {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .people {
+    margin-top: 3rem;
+  }
+}

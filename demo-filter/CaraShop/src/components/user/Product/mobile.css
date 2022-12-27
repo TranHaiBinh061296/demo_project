@@ -1,0 +1,18 @@
+@media (max-width: 799px) {
+  .productImg {
+    width: 90%;
+  }
+
+  .productGroup {
+    padding: 0;
+    margin: 2rem 0 0 0;
+  }
+
+  .productDescr {
+    display: none;
+  }
+
+  .productInfo {
+    margin-top: 2rem;
+  }
+}

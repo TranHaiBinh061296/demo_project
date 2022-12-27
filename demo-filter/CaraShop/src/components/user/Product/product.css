@@ -1,0 +1,17 @@
+.productGroup {
+  display: flex;
+  margin-top: 2rem;
+  padding: o 2rem;
+}
+.productImage {
+}
+
+.productImage img {
+}
+.productInfo {
+  margin-left: 1rem;
+}
+
+.w-10 {
+  width: 5rem;
+}

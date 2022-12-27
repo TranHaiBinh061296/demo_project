@@ -1,0 +1,28 @@
+#adminSideBar {
+  flex: 1;
+  position: sticky;
+  top: 0;
+  padding-left: 1rem;
+  border-right: 0.01rem solid rgb(189, 153, 189, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  height: 100vh;
+}
+
+hr {
+  color: rgb(145, 64, 145);
+}
+
+.center {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#adminSideBar li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#adminSideBar a i {
+  color: var(--icon-collor--);
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,14 @@
+.denyPage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.denyNotification {
+  margin-top: 2rem;
+  color: purple;
+}
+
+.denyPage button {
+  margin: auto;
+}
